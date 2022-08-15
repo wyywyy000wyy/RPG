@@ -19,11 +19,11 @@ if dbg then
 
 end
 
-require("global_require")
-require("core.string")
-require("core.hot_require")
+require("framework/global_require")
+require("framework/core/string")
+require("framework/core/hot_require")
 require("main")
 
 
--- require("TestSwitchDraw")
--- require("TestSwitchDraw2")
+-- require("framework.TestSwitchDraw")
+-- require("framework.TestSwitchDraw2")

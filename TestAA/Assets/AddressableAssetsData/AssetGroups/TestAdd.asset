@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: TestAdd
+  m_EditorClassIdentifier: 
+  m_GroupName: TestAdd
+  m_Data:
+    m_SerializedData: []
+  m_GUID: baf1d0f837f26ed4dba6edcd2a3d9759
+  m_SerializeEntries:
+  - m_GUID: ac9e26d659bbbec479b9e270788c34b4
+    m_Address: Assets/Prefab/prefab_TestAdd.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f430b58362416d94fad1c438429d43c6
+    m_Address: Assets/Prefab/prefab_TestAdd2.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: c53b2e06213143347b18ad8c88bbde54, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 14681cd9d72572e44adde0b56b56f36b, type: 2}
+    - {fileID: 11400000, guid: 2fcb461d554bb304f9ad4e3aae9ae2bc, type: 2}

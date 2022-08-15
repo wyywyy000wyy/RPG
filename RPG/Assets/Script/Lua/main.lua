@@ -1,14 +1,14 @@
 
 
-require("core.module")
-require("core.class")
-require("core.serpent")
-require("core.logger")
-require("global_require")
-require("core.ys_loader")
+require("framework/core/module")
+require("framework/core/class")
+require("framework/core/serpent")
+require("framework/core/logger")
+require("framework/global_require")
+require("framework/core/ys_loader")
 
 logger.print("DrawTest Lua loaded ")
--- require("TestSwitchDraw3")
+-- require("framework.TestSwitchDraw3")
 
 local wait_frame = 0
 
