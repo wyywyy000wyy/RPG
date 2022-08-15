@@ -1,4 +1,5 @@
-local ys_id_manager = class("ys_id_manager", T.ys_manager_base_game)
+T.ys_id_manager = class("ys_id_manager", T.ys_manager_base_game)
+local ys_id_manager = T.ys_id_manager
 
 function ys_id_manager:constructor()
     self.id_poor = 1

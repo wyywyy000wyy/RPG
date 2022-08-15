@@ -1,4 +1,5 @@
-local ys_component = class("ys_component")
+T.ys_component = class("ys_component")
+local ys_component = T.ys_component
 
 function ys_component:constructor(obj)
     self._obj = obj

@@ -1,4 +1,5 @@
-local ys_manager_base = class("ys_manager_base")
+T.ys_manager_base = class("ys_manager_base")
+local ys_manager_base = T.ys_manager_base
 
 function ys_manager_base:constructor()
 

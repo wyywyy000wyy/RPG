@@ -1,5 +1,5 @@
-local ys_object = class("ys_object")
-
+T.ys_object = class("ys_object")
+local ys_object = T.ys_object
 
 function ys_object:constructor()
     self._id = G_ID:new_id()

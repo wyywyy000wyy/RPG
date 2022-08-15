@@ -1,4 +1,5 @@
-local ys_component_manager = class("ys_component_manager")
+T.ys_component_manager = class("ys_component_manager")
+local ys_component_manager = T.ys_component_manager
 
 function ys_component_manager:constructor(obj)
     self._obj = obj

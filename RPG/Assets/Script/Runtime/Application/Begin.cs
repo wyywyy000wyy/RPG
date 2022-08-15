@@ -29,12 +29,12 @@ public class Begin : MonoBehaviour
 
     public static string GetFileName(string name)
     {
-        string path = "Assets/Lua/" + name.Replace('.', '/') + ".lua";
+        string path = "Assets/Lua/" + name + ".lua";
         if (File.Exists(path))
         {
             return path;
         }
-        path = Application.dataPath + "/Lua/" + name.Replace('.', '/') + ".lua";
+        path = Application.dataPath + "/Lua/" + name + ".lua";
         return path;
     }
 
