@@ -1,0 +1,31 @@
+{
+    "group": "Common",
+    "libs": [
+        "libz.tbd", 
+        "libc++.tbd", 
+        "libz.1.tbd"
+    ],
+    "frameworks": [
+        "SystemConfiguration.framework",
+        "Security.framework",
+        "JavaScriptCore.framework",
+        "CoreTelephony.framework",
+        "AVFoundation.framework",
+        "StoreKit.framework",
+        "AdSupport.framework",
+        "Photos.framework",
+        "Messages.framework:optional"
+    ],
+    "headerpaths": [],
+    "files":   [
+        "Common/libxlua.a",
+		"Common/PhoneUtility.mm",
+		"Common/IntegrateStoreKit.h",
+		"Common/IntegrateStoreKit.mm",
+        "Common/HotfixFlags.cpp",
+    ],
+    "folders": [],    
+    "excludes": ["^.*.meta$", "^.*.mdown$", "^.*.pdf$"],
+    "compiler_flags": [],
+	"linker_flags": ["-ObjC"]
+}

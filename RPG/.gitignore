@@ -1,0 +1,12 @@
+Assets/Source/CS/XLuaGen/*
+Assets/Source/CS/XLuaGen.meta
+.vs/
+Library/
+Temp/
+obj/
+Assets/StreamingAssets/*
+build/
+.vsconfig
+Logs/
+*.sln
+*.csproj
